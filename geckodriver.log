@@ -1,0 +1,176 @@
+1616944740069	geckodriver	INFO	Listening on 127.0.0.1:49707
+1616944740830	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_1/692ylsjx2651xg0ntml3m_t80000gn/T/rust_mozprofilecmCyHK"
+1616944820601	geckodriver	INFO	Listening on 127.0.0.1:50367
+1616944821614	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_1/692ylsjx2651xg0ntml3m_t80000gn/T/rust_mozprofilefJhmbE"
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+2021-03-28 23:20:59.567 firefox-bin[20093:5860877] Persistent UI failed to open file file:///Users/majid/Library/Saved%20Application%20State/org.mozilla.firefox.savedState/window_1.data: Too many open files in system (23)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+objc[20099]: couldn't dlopen libobjc-trampolines.dylib: dlopen(/usr/lib/libobjc-trampolines.dylib, 262): no suitable image found.  Did find:
+	/usr/lib/libobjc-trampolines.dylib: open() failed with errno=23
+Exiting due to channel error.
+1616944878933	geckodriver	INFO	Listening on 127.0.0.1:50754
+1616944879946	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_1/692ylsjx2651xg0ntml3m_t80000gn/T/rust_mozprofiled5PldP"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: (new Error("Error(s) encountered during statement execution: unable to open database file", "resource://gre/modules/Sqlite.jsm", 894))
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 894: Error: Error(s) encountered during statement execution: unable to open database file
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 894: Error: Error(s) encountered during statement execution: unable to open database file
+console.log: "RemoteSettingsWorker error: UnknownError: IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code."
+JavaScript error: resource://gre/modules/PlacesDBUtils.jsm, line 1255: TypeError: db is undefined
+console.error: SearchEngineSelector: "Received empty search configuration!"
+console.error: SearchService: "_init: failure initializing search:" (void 0)
+JavaScript error: , line 0: uncaught exception: 2147500037
+JavaScript error: resource://gre/modules/SearchService.jsm, line 206: NS_ERROR_FAILURE: SearchService previously failed to initialize
+JavaScript error: , line 0: uncaught exception: 2147500037
+JavaScript error: resource://gre/modules/SearchService.jsm, line 1292: NS_ERROR_FAILURE: SearchService initialization failed
+console.error: SearchService: "maybeReloadEngines failed" (new AbortError("IndexedDB: main/search-config clear() IndexedDB: main/search-config importChanges() IndexedDB:  importChanges() in main/search-config A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 24))
+JavaScript error: , line 0: uncaught exception: 2147500037
+JavaScript error: , line 0: uncaught exception: 2147500037
+JavaScript error: , line 0: uncaught exception: 2147500037
+[Parent 20108, Main Thread] WARNING: failed to open shm: Too many open files in system: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/shared_memory_posix.cc:354
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+[ERROR glean_core] Error clearing pending pings: An I/O error occurred: Too many open files in system (os error 23)
+[ERROR glean_core::database] Could not clear store for lifetime User: Error { kind: Rkv(IoError(Os { code: 23, kind: Other, message: "Too many open files in system" })) }
+[ERROR glean_core::database] Could not clear store for lifetime Ping: Error { kind: Rkv(IoError(Os { code: 23, kind: Other, message: "Too many open files in system" })) }
+[ERROR glean_core::database] Could not clear store for lifetime Application: Error { kind: Rkv(IoError(Os { code: 23, kind: Other, message: "Too many open files in system" })) }
+[ERROR glean_core] Error clearing pending events: An I/O error occurred: Too many open files in system (os error 23)
+[ERROR glean_core::database] Failed to record metric into glean_client_info: Error { kind: Rkv(IoError(Os { code: 23, kind: Other, message: "Too many open files in system" })) }
+[Parent 20108, Gecko_IOThread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:160
+console.error: SearchSettings: "_write: Could not write to settings file:" (new Error("cannot write without any engine.", "resource://gre/modules/SearchSettings.jsm", 210))
+[Parent 20108, Gecko_IOThread] WARNING: Failed to launch tab subprocess: file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:745
+1616944888541	Marionette	INFO	Listening on port 50765
+1616944889058	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 2147500037
+1616945219172	geckodriver	INFO	Listening on 127.0.0.1:50900
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 968: TypeError: this._storage is null
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1616945232974	Marionette	INFO	Stopped listening on port 50765
+1616945279186	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_1/692ylsjx2651xg0ntml3m_t80000gn/T/rust_mozprofilep8ddCl"
+[Child 20250, Main Thread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:160
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x230077,name=PBrowser::Msg_UpdateDimensions) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 20246, Main Thread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:160
+[Parent 20246, Main Thread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:160
+** Unknown exception behavior: 3
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1616945364809	geckodriver	INFO	Listening on 127.0.0.1:50954
+1616945364818	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_1/692ylsjx2651xg0ntml3m_t80000gn/T/rust_mozprofileF7KOpx"
+[Child 20298, RemVidChild] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:160
+[Parent 20296, Main Thread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:160
+[Parent 20296, Main Thread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:160
+** Unknown exception behavior: 3
+2021-03-28 15:29:34.829 plugin-container[20298:5870010] CoreText: System LastResort not available, using built-in copy.
+Exiting due to channel error.
+1616945567314	geckodriver	INFO	Listening on 127.0.0.1:51116
+1616945567329	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_1/692ylsjx2651xg0ntml3m_t80000gn/T/rust_mozprofilesPNqYS"
+[Parent 20403, Main Thread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:160
+[GFX1-]: Could not create content compositor bridge: 0x80610001
+[Parent 20403, Gecko_IOThread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:160
+[Parent 20403, Gecko_IOThread] WARNING: Failed to launch tab subprocess: file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:745
+[Parent 20403, Gecko_IOThread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:160
+[Parent 20403, Gecko_IOThread] WARNING: Failed to launch tab subprocess: file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:745
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1010: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIScriptSecurityManager.getLoadContextContentPrincipal]
+[Parent 20403, Gecko_IOThread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:160
+[Parent 20403, Gecko_IOThread] WARNING: Failed to launch tab subprocess: file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:745
+[Parent 20403, Gecko_IOThread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:160
+[Parent 20403, Gecko_IOThread] WARNING: Failed to launch tab subprocess: file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:745
+[Parent 20403, Gecko_IOThread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:160
+[Parent 20403, Gecko_IOThread] WARNING: Failed to launch tab subprocess: file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:745
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1010: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIScriptSecurityManager.getLoadContextContentPrincipal]
+[Parent 20403, Gecko_IOThread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:160
+[Parent 20403, Gecko_IOThread] WARNING: Failed to launch tab subprocess: file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:745
+[Parent 20403, Gecko_IOThread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:160
+[Parent 20403, Gecko_IOThread] WARNING: Failed to launch tab subprocess: file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:745
+[Parent 20403, Gecko_IOThread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:160
+[Parent 20403, Gecko_IOThread] WARNING: Failed to launch tab subprocess: file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:745
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1010: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIScriptSecurityManager.getLoadContextContentPrincipal]
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1501: TypeError: messageManager is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1501: TypeError: messageManager is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1501: TypeError: messageManager is null
+[20407, Chrome_ChildThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/message_pump_libevent.cc:127
+console.error: "Could not read session file " (new Error("", (void 0))) ""
+2021-03-28 23:32:52.527 firefox-bin[20403:5873488] CoreText: System LastResort not available, using built-in copy.
+[Child 20407, Main Thread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:160
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 20403, Main Thread] WARNING: failed to open shm: Too many open files in system: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/shared_memory_posix.cc:354
+[Parent 20403, Main Thread] WARNING: failed to open shm: Too many open files in system: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/shared_memory_posix.cc:354
+[Parent 20403, Main Thread] WARNING: failed to open shm: Too many open files in system: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/shared_memory_posix.cc:354
+JavaScript error: resource://activity-stream/lib/ASRouterNewTabHook.jsm, line 61: TypeError: this._router is null
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 3284: TypeError: win is null
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 196: Error: Data is not ready.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", "resource://gre/modules/Region.jsm", 705))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 376))
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 1974: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+1616945727203	geckodriver	INFO	Listening on 127.0.0.1:51226
+1616945727216	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_1/692ylsjx2651xg0ntml3m_t80000gn/T/rust_mozprofilemdyOZR"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616945732538	Marionette	INFO	Listening on port 51235
+1616945732841	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616945748390	Marionette	INFO	Stopped listening on port 51235
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616945754156	geckodriver	INFO	Listening on 127.0.0.1:51325
+1616945754170	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_1/692ylsjx2651xg0ntml3m_t80000gn/T/rust_mozprofileCcx7Ip"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616945757010	Marionette	INFO	Listening on port 51334
+1616945757074	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616945759000	geckodriver	INFO	Listening on 127.0.0.1:51392
+1616945759012	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_1/692ylsjx2651xg0ntml3m_t80000gn/T/rust_mozprofileWUDwzF"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616945761986	Marionette	INFO	Listening on port 51401
+1616945762015	Marionette	WARN	TLS certificate errors will be ignored for this session
+dyld: Library not loaded: @executable_path/liblgpllibs.dylib
+  Referenced from: /Applications/Firefox.app/Contents/MacOS/XUL
+  Reason: no suitable image found.  Did find:
+	/Applications/Firefox.app/Contents/MacOS/liblgpllibs.dylib: open() failed with errno=23
+1616945842912	Marionette	INFO	Stopped listening on port 51401
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 20474, IPC Launch #1] WARNING: parent WaitForMessage() failed: 0x10004003 (ipc/rcv) timed out: file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:1299
+[Parent 20474, Gecko_IOThread] WARNING: Failed to launch tab subprocess: file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:745
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1616993837944	geckodriver	INFO	Listening on 127.0.0.1:62637
+1616993838956	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_1/692ylsjx2651xg0ntml3m_t80000gn/T/rust_mozprofilepj0P8t"
+1616993913148	geckodriver	INFO	Listening on 127.0.0.1:63244
+1616993913161	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_1/692ylsjx2651xg0ntml3m_t80000gn/T/rust_mozprofileJOYVX0"

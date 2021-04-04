@@ -1,0 +1,9 @@
+.idea/*
+__pycache__/*
+uploads/*
+uploads_parsed/*
+output/*
+*.mp4
+scraped/*
+*.pkl
+
